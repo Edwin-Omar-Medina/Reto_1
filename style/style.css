@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Shadows+Into+Light+Two&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Open+Sans:wght@300&family=Shadows+Into+Light+Two&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../img/fondo1.jpg);
+    backdrop-filter: blur(5px);
+    /* width: 100%; */
+}
+
+.contenedorTitulo{
+    font-family: 'Shadows Into Light Two', cursive;
+    background-color: rgba(251, 251, 251, 0.3);
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 52px;
+    width: 100%;
+}
+
+
+#fondo{
+    background-image:url(../img/pastor1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* width: 202vh; */
+    height: 90vh; 
+}
+
+#Titulo{
+    color: white;
+    display: flex;
+    width: 100%;
+}
+
+#Titulo h1{
+    float: inline-start;
+    padding-left: 50px;
+
+}
+
+.ContenedorNav{
+    width: 100%;
+    margin: auto;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 22px;
+    
+}
+
+#Cabeza{
+    color: white;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    background-color: rgba(149, 164, 165, 0.5);   
+}
+
+#Cabeza h1{
+    float: left;
+    padding-left: 30px;
+}
+
+.menu{
+    float: right;
+    margin-top: 10px;
+    display: block;
+}
+
+.menu li{
+    list-style: none;
+    float: left;
+    margin: 5px;
+    padding-right: 50px;
+}
+
+.menu li ul{
+    display: none;
+    position: absolute;
+    
+}
+
+.menu li:hover ul{
+    display: block;
+   
+}
+.menu li ul li{
+    height: -145;
+    top: 0px;
+    padding: 10px;
+}
+
+.menu a{
+    color: white;
+    text-align: none;
+    padding: 5px 10px;
+}
+
+.menu a:hover{
+    background-color: rgba(149, 164, 165, 0.5);
+}
+
+.ContenedorPrincipal{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.ContenedorPrincipal a{
+    color: white;
+    text-decoration: none;
+    width: 10px;
+    padding: 5px 10px;
+}
+
+#Princial{
+    color: white;
+    margin: auto;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    padding: 10px;
+    top:60%;
+} 
+main{
+    margin-top: 20px;
+    margin: 0 auto;
+    margin-left: 0px;
+    padding: 50px;
+    
+}
+#tabla1 img{
+    border-radius: 15%;
+    width: 400px;
+    height: 250px;
+    margin-top: 50px;
+   
+    /* padding: 10px; */
+
+}
+
+.img1{
+    margin-left: 200px;
+}
+
+#tabla1 img:hover{
+    border-radius:0%;
+    transform: scale(1.80);
+}
+#tabla1{
+    margin:0 auto;
+    /* padding: 100px; */
+    justify-items: center;
+    align-items: center;
+}
+#ele p{
+    margin-top: -60px;
+    max-width: 50px;
+}
+#ele {
+    max-width: 50px;
+    font-size: 90px;
+    font-family: 'Cinzel', serif;
+}
+#ele {
+    color: #fff;
+	margin-top: 30%;
+	text-shadow:
+		0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+}
+
+.contenido{
+    background-color: rgba(59, 59, 59, 0.5);
+    margin-left: -540px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+}
+
+
+.contenido2{
+    padding: 20px;
+    background-color: rgba(59, 59, 59, 0.5);
+    margin-left: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+}
+
+#foter th{
+    padding: 100px;
+}
+
+#tabla2{
+    margin-top: 50px;
+    width: 100%;
+    background-color: rgba(8, 8, 8, 0.8);
+
+}
+#tabla2 img:hover{
+    border-radius:0%;
+    transform: scale(1.50);
+}
+
+#tabla2 #pastores{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Cinzel', serif;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+#tabla2 p a{
+    text-decoration: none;
+    color: #fff;
+}
